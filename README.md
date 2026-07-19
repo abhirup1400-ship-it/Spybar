@@ -13,5 +13,7 @@
 git clone https://github.com/YOUR_USERNAME/spybar.git
 cd spybar
 chmod +x install.sh
+sudo apt install dos2unix
+dos2unix install.sh 
 ./install.sh
 sudo python3 spybar.py
